@@ -19,9 +19,10 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "always",
     "source.organizeImports": "explicit"
-  },    
+  },
   "workbench.editor.customLabels.patterns": {
     "**/app/**/page.tsx": "${dirname} - page.tsx",
-    "**/app/**/layout.tsx": "${dirname} - layout.tsx",
-  }
+    "**/app/**/layout.tsx": "${dirname} - layout.tsx"
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }
